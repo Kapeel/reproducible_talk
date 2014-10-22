@@ -27,7 +27,7 @@ output: ioslides_presentation
 
 - I'm tired of Word's formatting quirks
 - I'm tired of copying and pasting results
-- I no longer want to email files back in forth
+- I no longer want to email files back and forth
 - I want a __record of what I did__
 - I want a ___more efficient workflow___
 
