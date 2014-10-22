@@ -66,6 +66,18 @@ summary(cars)
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
+## Setting Up Git...Caution, FRUSTRATION Awaits
+
+This can be challenging, but these resources should help:
+
+- Mac/Linux: [Set Up Git](https://help.github.com/articles/set-up-git/)
+- Windows: [GUI](https://help.github.com/articles/getting-started-with-github-for-windows/)
+  or [Command Line](http://guides.beanstalkapp.com/version-control/git-on-windows.html)
+  
+Note: I have no experience working with git on Windows. I would try using the 
+command line help above. It looks pretty good. It uses Beanstalk as the remote 
+host, but setup for GitHub should be similar. Just replace Beanstalk with GitHub.
+
 ## Demo
 
 
