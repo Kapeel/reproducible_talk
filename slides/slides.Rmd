@@ -7,11 +7,21 @@ output: ioslides_presentation
 
 ## The Tools
 
-- R (and RStudio)
-- knitr (LaTeX, markdown and pandoc)
-- git (and GitHub)
-
-![alt text](http://www.thegreenhead.com/imgs/giant_swiss_army_knife_1.jpg)
+- [R](http://www.r-project.org/) 
+  (and [RStudio](http://www.rstudio.com/))
+    - Learn R: [Try R](http://tryr.codeschool.com/) and 
+      [DataCamp](https://www.datacamp.com/)
+- [knitr](http://yihui.name/knitr/) 
+  (and [LaTeX](http://www.latex-project.org/), 
+  [markdown](http://daringfireball.net/projects/markdown/syntax) 
+  and [pandoc](http://johnmacfarlane.net/pandoc/))
+    - Learn R Markdown: [Basics](http://rmarkdown.rstudio.com/)
+- [git](http://git-scm.com/book/en/Getting-Started-Git-Basics) 
+  (and [GitHub](https://github.com/about) or 
+  [Bitbucket](https://bitbucket.org/features))
+    - Learn git: [tryGit](https://try.github.io/)
+    
+![alt text](http://www.thegreenhead.com/imgs/xl/giant-swiss-army-knife-xl.jpg)
 
 ## The Mentality
 
@@ -47,6 +57,16 @@ summary(cars)
 plot(cars)
 ```
 
+## Demo
+
+```{r, eval = FALSE}
+if (slide == "Demo") {
+  do_demo()
+} else {
+  continue_presentation()
+}
+```
+
 ## Stop getting stuck...
 
 ![movie reel](http://i.giphy.com/jVQTFvl8HbEOI.gif)
@@ -58,3 +78,5 @@ plot(cars)
 ## and Do Work!
 
 ![movie reel](http://i.giphy.com/ue5ZwFCaxy64M.gif)
+
+Thank you...[slides are here](https://github.com/icj/reproducible_talk/tree/master/slides)
